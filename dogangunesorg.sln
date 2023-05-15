@@ -1,13 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E947FC25-011D-44DB-8128-E22AA02C4724}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7AF5DD0D-FED9-485F-9A96-F5AEF0E3F7E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{E76FA528-758D-4A35-A235-8FDEECD12DA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.Angular", "Client.Angular", "{179E91A1-DA4A-485F-9818-4682796F7497}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Angular", "src\API\Client.Angular\Client.Angular.csproj", "{A1EBCCA2-8EB1-494D-BBA9-40C087975284}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1EBCCA2-8EB1-494D-BBA9-40C087975284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EBCCA2-8EB1-494D-BBA9-40C087975284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EBCCA2-8EB1-494D-BBA9-40C087975284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EBCCA2-8EB1-494D-BBA9-40C087975284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AF5DD0D-FED9-485F-9A96-F5AEF0E3F7E7} = {E947FC25-011D-44DB-8128-E22AA02C4724}
+		{E76FA528-758D-4A35-A235-8FDEECD12DA3} = {E947FC25-011D-44DB-8128-E22AA02C4724}
+		{179E91A1-DA4A-485F-9818-4682796F7497} = {7AF5DD0D-FED9-485F-9A96-F5AEF0E3F7E7}
+		{A1EBCCA2-8EB1-494D-BBA9-40C087975284} = {179E91A1-DA4A-485F-9818-4682796F7497}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0956DD6-29E8-4720-B428-A1E5481FB76D}
